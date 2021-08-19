@@ -1,0 +1,17 @@
+gitlab:
+  url:  http://192.168.31.58:9300/
+  token: sis8vdetwdzQxMpydVGz
+
+# Pull jobs related metrics on all projects
+project_defaults:
+  pull:
+    pipeline:
+      jobs:
+        enabled: true
+
+# Example public projects to monitor
+projects:
+  - name: gitlab-instance-26a1e936/Monitoring
+    pull:
+      environments:
+        enabled: true

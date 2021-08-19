@@ -1,0 +1,28 @@
+gitlab:
+  url: http://coding.codeages.work/
+  # You can also configure the token using --gitlab-token
+  # or the $GCPE_GITLAB_TOKEN environment variable
+  token: zGEzm6VyGFSM4iysu2E1
+projects:
+  - 
+    name: edusoho/edusoho
+    pull:
+      environments:
+        enabled: true
+      pipeline:
+        jobs:
+          enabled: true
+      refs:
+        branches:
+          enabled: true
+          regexp: "^develop|master|release/.*|sprint/.*|project/.*$"
+        tags:
+          enabled: true
+          regexp: ".*"
+        merge_requests:
+          enabled: true
+    
+# wildcards:
+#   - owner:
+#       name: root
+#       kind: user
