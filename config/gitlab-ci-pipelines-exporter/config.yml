@@ -4,8 +4,7 @@ gitlab:
   # or the $GCPE_GITLAB_TOKEN environment variable
   token: zGEzm6VyGFSM4iysu2E1
 projects:
-  - 
-    name: edusoho/edusoho
+  - name: edusoho/edusoho
     pull:
       environments:
         enabled: true
@@ -15,12 +14,15 @@ projects:
       refs:
         branches:
           enabled: true
-          regexp: "^develop|master|release/.*|sprint/.*|project/.*$"
+          regexp: "^master|develop|release/.*|sprint/.*|project/.*$"
+          max_age_seconds: 2592000
         tags:
           enabled: true
           regexp: ".*"
+          max_age_seconds: 2592000
         merge_requests:
           enabled: true
+          max_age_seconds: 259200
     
 # wildcards:
 #   - owner:
