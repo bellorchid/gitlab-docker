@@ -869,11 +869,11 @@
                     },
                     {
                       "color": "light-orange",
-                      "value": 900
+                      "value": 3600
                     },
                     {
                       "color": "semi-dark-red",
-                      "value": 1200
+                      "value": 7200
                     }
                   ]
                 }

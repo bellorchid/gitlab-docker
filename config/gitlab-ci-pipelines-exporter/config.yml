@@ -11,6 +11,8 @@ projects:
       pipeline:
         jobs:
           enabled: true
+        variables:
+          enabled: true
       refs:
         branches:
           enabled: true
