@@ -869,11 +869,11 @@
                     },
                     {
                       "color": "light-orange",
-                      "value": 3600
+                      "value": 1800
                     },
                     {
                       "color": "semi-dark-red",
-                      "value": 7200
+                      "value": 3600
                     }
                   ]
                 }
@@ -1282,11 +1282,11 @@
                     },
                     {
                       "color": "light-orange",
-                      "value": 900
+                      "value": 1800
                     },
                     {
                       "color": "semi-dark-red",
-                      "value": 1200
+                      "value": 3600
                     }
                   ]
                 }
