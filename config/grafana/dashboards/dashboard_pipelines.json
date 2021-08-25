@@ -889,11 +889,11 @@
                     },
                     {
                       "color": "light-orange",
-                      "value": 1800
+                      "value": 3600
                     },
                     {
                       "color": "semi-dark-red",
-                      "value": 3600
+                      "value": 7200
                     }
                   ]
                 }
