@@ -1,7 +1,7 @@
 gitlab:
   url: http://coding.codeages.work/
   # You can also configure the token using --gitlab-token
-  # or the $GCPE_GITLAB_TOKEN environment variable
+  # or the $GCPE_GITLAB_TOKEN environment variable 
   token: zGEzm6VyGFSM4iysu2E1
 projects:
   - name: edusoho/edusoho
