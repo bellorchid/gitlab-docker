@@ -17,11 +17,11 @@ projects:
         branches:
           enabled: true
           regexp: "^master|develop|release/.*|sprint/.*|project/.*$"
-          max_age_seconds: 2592000
+          max_age_seconds: 864000
         tags:
           enabled: true
           regexp: ".*"
-          max_age_seconds: 2592000
+          max_age_seconds: 864000
         merge_requests:
           enabled: true
           max_age_seconds: 259200
